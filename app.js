@@ -28,7 +28,7 @@ app.use('/season', seasonRouter);
 app.use('/episode', episodeRouter);
 app.use('/series', seriesRouter);
 app.use('/genre', genreRouter);
-
+//*hello how are you hello i'm the khizer why the hell the i do this
 
 app.listen(process.env.PORT, () => {
     console.log(`Server listening at http://localhost:${process.env.PORT}`);
